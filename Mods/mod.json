@@ -1,7 +1,17 @@
 {
-    "id": "test_mod",
-    "name": "Test Mod",
-    "author": "Jollyname",
-    "version": "1.0.0",
-    "description": "Test"
+  "id": "realistic-thrusters",
+  "name": "Realistic Thrusters",
+  "author": "jollyname",
+  "version": "1.0.0",
+  "description": "Makes thrusters push from where they're mounted, instead of from the ship's center of mass\nEvery player needs the mod",
+  "thumbnail": "Thumbnail.png",
+  "images": [],
+  "ai": "ai-free",
+  "development": "inactive",
+  "tags": [
+    "physics",
+    "realism",
+    "gameplay",
+    "tweaks"
+  ]
 }

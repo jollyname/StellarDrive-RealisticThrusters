@@ -15,7 +15,7 @@ namespace RealisticThrusters
     public static class BuildInfo
     {
         public const string Name = "Realistic Thrusters";
-        public const string Description = "Makes thrusters push from where they’re mounted, not from the center of mass";
+        public const string Description = "Makes thrusters push from where they're mounted, instead of from the ship's center of mass.";
         public const string Author = "jollyname";
         public const string Company = null;
         public const string Version = "1.0.0";
