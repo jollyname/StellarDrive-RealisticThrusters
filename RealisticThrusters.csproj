@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <OutputPath>$(SolutionDir)Output\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ReferencedAssemblies\MelonLoader.dll" />
+	<Reference Include="ReferencedAssemblies\UnityEngine.dll" />
+	<Reference Include="ReferencedAssemblies\UnityEngine.CoreModule.dll" />
+	<Reference Include="ReferencedAssemblies\Ships.dll" />
+	<Reference Include="ReferencedAssemblies\Ships.Interface.dll" />
+	<Reference Include="ReferencedAssemblies\WorldTracking.Interface.dll" />
+	<Reference Include="ReferencedAssemblies\0Harmony.dll" />
+  </ItemGroup>
+
+</Project>
